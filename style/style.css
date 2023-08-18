@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    color: red;
+    font-family: 'Caprasimo', cursive;
+}
+body{
+    background-image: url(/assets/imgs/background3.png);
+    background-repeat: no-repeat;
+    background-position: top;    
+}
+main{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 800px;
+    width: 909px;
+    display: grid;
+    grid-template-rows: 80px auto;
+    border-radius: 20px;
+
+}
+.topbar{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 26px;
+    border: 2px solid red;
+}
+.btn-top{
+    display: flex;
+    justify-content: space-evenly;
+
+    border: 2px solid red;
+}
+.login-account{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 32px 48px 32px 56px 56px 56px 48px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    gap: 8px;
+}
+.start{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.second{
+    font-size: 40px;
+}
+.input-name{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    position: relative;
+    height: 56px;
+}
+#name{
+    height: 100%;
+    padding-left: 16px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.486);
+    border: none;
+}
+.input-name label{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.877);
+    left: 16px;
+    transform: translateY(50%);
+    transition: translateY 0.4s ease-in-out;
+}
+
+.input-lastname{
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+.input-email{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.password{
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+.new-account{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
