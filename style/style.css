@@ -75,8 +75,9 @@ main{
 .input-name label{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.877);
+    top: 10px;
     left: 16px;
-    transform: translateY(50%);
+    transform: translateY(40%);
     transition: translateY 0.4s ease-in-out;
 }
 
